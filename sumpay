@@ -1,0 +1,51 @@
+function Tang()
+{
+	var a=document.getElementById('value').value;
+	a=Number(a);
+	if ((a>=25)==true)
+	{
+		var b=a-25;
+		document.getElementById('change').innerHTML="Thank you for buying please come again here's your change: "+b;
+		alert('Enjoy your Coke')
+	}
+	else
+	{
+		var b=25-a;
+		alert('Insufficient Amount!!');
+		document.getElementById('change').innerHTML="Your money needs "+b+" more to avail this one";
+	}
+}
+function Nestea()
+{
+	var a=document.getElementById('value').value;
+	a=Number(a);
+	if ((a>=30)==true)
+	{
+		var b=a-30;
+		document.getElementById('change').innerHTML="Thank you for buying please come again here's your change: "+b;
+		alert('Enjoy your Coke')
+	}
+	else
+	{
+		var b=30-a;
+		alert('Insufficient Amount!!');
+		document.getElementById('change').innerHTML="Your money needs "+b+" more to avail this one";
+	}
+}
+function Eightoclock()
+{
+	var a=document.getElementById('value').value;
+	a=Number(a);
+	if ((a>=50)==true)
+	{
+		var b=a-50;
+		document.getElementById('change').innerHTML="Thank you for buying please come again here's your change: "+b;
+		alert('Enjoy your Coke')
+	}
+	else
+	{
+		var b=50-a;
+		alert('Insufficient Amount!!');
+		document.getElementById('change').innerHTML="Your money needs "+b+" more to avail this one";
+	}
+}
